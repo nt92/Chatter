@@ -13,6 +13,7 @@
 		A105524D1C61956D005ABDC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A105524C1C61956D005ABDC5 /* Assets.xcassets */; };
 		A10552501C61956D005ABDC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A105524E1C61956D005ABDC5 /* LaunchScreen.storyboard */; };
 		A10552581C619DD6005ABDC5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10552571C619DD6005ABDC5 /* ChatViewController.swift */; };
+		A105525A1C61A7E1005ABDC5 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10552591C61A7E1005ABDC5 /* ChatCell.swift */; };
 		DBB0EE84DA6AAAE8610F6E60 /* Pods_Chatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E477C95DF50736E8BA51523A /* Pods_Chatter.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		A105524F1C61956D005ABDC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A10552511C61956D005ABDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A10552571C619DD6005ABDC5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A10552591C61A7E1005ABDC5 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		E477C95DF50736E8BA51523A /* Pods_Chatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				A10552451C61956D005ABDC5 /* AppDelegate.swift */,
+				A10552591C61A7E1005ABDC5 /* ChatCell.swift */,
 				A10552571C619DD6005ABDC5 /* ChatViewController.swift */,
 				A10552471C61956D005ABDC5 /* LoginViewController.swift */,
 				A10552491C61956D005ABDC5 /* Main.storyboard */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10552481C61956D005ABDC5 /* LoginViewController.swift in Sources */,
+				A105525A1C61A7E1005ABDC5 /* ChatCell.swift in Sources */,
 				A10552581C619DD6005ABDC5 /* ChatViewController.swift in Sources */,
 				A10552461C61956D005ABDC5 /* AppDelegate.swift in Sources */,
 			);
